@@ -26,15 +26,15 @@ Age-wise distribution of victims (bar plot).
 Child vs adult victim distribution (pie chart).
 
  Feature Engineering:
-child_to_adult_ratio – identifies states with high child victimization.
-severity_index – victims per reported case, prioritizing critical regions.
-% of child victims below 12 – highlights child vulnerability.
+child_to_adult_ratio= identifies states with high child victimization.
+severity_index = victims per reported case, prioritizing critical regions.
+% of child victims below 12 = highlights child vulnerability.
 
 4. Steps to Run the Project
 a. Upload the dataset NCRB_Table_3A.3.csv to your environment (Google Colab recommended).
 b. Install required packages: !pip install pandas numpy matplotlib seaborn scikit-learn
 c. Run the notebook cell by cell:
-Data Cleaning → Data Preprocessing → EDA & Visualizations → Feature Engineering.
+Data Cleaning-> Data Preprocessing -> EDA & Visualizations -> Feature Engineering.
 d. Explore the visualizations to understand trends in reported cases.
 e. Review actionable insights based on the engineered features.
 
